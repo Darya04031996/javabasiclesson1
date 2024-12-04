@@ -1,0 +1,21 @@
+plugins {
+    id "java"
+}
+group = 'guru.qa'
+
+repositories {
+    mavenCentral()
+}
+compileJava {
+    options.encoding = 'UTF-8'
+}
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+dependencies {
+
+}
+
+test {
+    useJUnitPlatform{}
+}
